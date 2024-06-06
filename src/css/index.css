@@ -1,0 +1,221 @@
+/* Reset CSS */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header {
+  background: #363636;
+  padding: 0.4rem;
+  color: white;
+  display: flex;
+  max-width: 100%;
+  max-height: 50%;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1%;
+}
+.header-button {
+  /* display: flex;
+    justify-content: flex-end; */
+  margin-right: 1%;
+}
+.header a {
+  padding-left: 2%;
+}
+body {
+  /* background-image: url(../img/frame.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  max-height: 70vh;
+  font-family: "Open Sans";
+}
+.background {
+  background: url(../img/frame.jpg);
+  padding-bottom: 45rem;
+  background-size: 130rem;
+  background-position-y: 53%;
+  margin-bottom: 10rem;
+  z-index: 1;
+}
+/* .background {
+  background-color: white;
+} */
+.bar {
+  background: black;
+  width: 20%;
+  height: 20%;
+  margin-left: 40%;
+}
+.button-top {
+  background-color: white;
+  color: black;
+  padding: 1.3rem 1rem;
+  border-radius: 40px;
+  width: 8%;
+  font-weight: 5000;
+  margin-bottom: 22.5rem;
+  border: none;
+  margin-top: 3%;
+}
+
+.button-top:hover {
+  background-color: black;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  background: white transparent;
+}
+.title {
+  margin-top: -37%;
+  text-align: center;
+  color: white;
+}
+.lorem {
+  text-align: center;
+  color: white;
+  padding-top: 3%;
+}
+.middle {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 1rem;
+  margin-top: 1%;
+  /* padding-top: 2%; */
+}
+.clock,
+.coffee {
+  max-width: 30%;
+  padding-bottom: 5%;
+}
+.clock-logo,
+.coffee-logo {
+  font-size: 2rem;
+}
+.bold {
+  font-weight: bold;
+}
+.title-middle-left,
+.title-middle-right {
+  font-weight: bold;
+}
+.person {
+  background: url(../img/person-1.jpg);
+  padding-bottom: 45rem;
+  background-size: 130rem;
+  background-position-y: 53%;
+  margin-bottom: 10rem;
+}
+.reservez {
+  text-align: center;
+  padding-top: 5%;
+}
+.button-bottom {
+  background-color: black;
+  color: white;
+  padding: 1.3rem 1rem;
+  border-radius: 40px;
+  width: 8%;
+  font-weight: 5000;
+  margin-bottom: 22.5rem;
+  border: none;
+  margin-top: 3%;
+}
+
+.button-bottom:hover {
+  background-color: white;
+  color: black;
+}
+.title-where {
+  /* padding-left: 50%; */
+  margin-left: 50%;
+  margin-top: 17%;
+}
+.bold-where {
+  font-weight: bold;
+}
+.map-where {
+  display: flex;
+  margin-left: 30%;
+  margin-top: -7.5%;
+  margin-bottom: 15.2%;
+}
+.bar-where {
+  background-color: black;
+  width: 52%;
+  height: 0.1rem;
+}
+.metro-where,
+h2 {
+  font-weight: bold;
+}
+
+.ligne-4-where {
+  background-color: rgb(255, 0, 149);
+  color: white;
+  padding-right: 1.7rem;
+  padding-left: 1.7rem;
+  border-radius: 20px;
+}
+
+.ligne-11-where {
+  background-color: rgb(89, 4, 4);
+  color: white;
+  padding-right: 1.7rem;
+  padding-left: 1.7rem;
+  border-radius: 20px;
+}
+.button-contact {
+  background-color: black;
+  color: white;
+  padding: 1.3rem 0 1rem;
+  border-radius: 40px;
+  width: 8%;
+  font-weight: 5000;
+  margin-bottom: 22.5rem;
+  border: none;
+  margin-top: 1%;
+  margin-left: 37.5%;
+}
+
+.button-contact:hover {
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+.title-contact {
+  text-align: center;
+}
+h5 {
+  padding-left: 37%;
+}
+h1,
+h5 {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 25%;
+  height: 2.5rem;
+  /* font-size: 2rem; */
+  margin-left: 37%;
+}
+
+textarea {
+  font-size: 0.8rem;
+  height: 5%;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
